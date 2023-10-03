@@ -1,0 +1,20 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.top-container {
+
+    height: 90vh;
+    overflow: hidden;
+
+    z-index: -1;
+    position: fixed;
+}
+
+.top-container img {
+
+    width: 100%;
+}
