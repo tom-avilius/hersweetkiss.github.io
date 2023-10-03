@@ -25,14 +25,11 @@ header {
 
     height: 90vh;
     overflow: hidden;
+    width: -webkit-fill-available;
 
-    z-index: -1;
-    position: fixed;
-}
-
-.top-container img {
-
-    width: 100%;
+    /* z-index: -1; */
+    /* position: sticky; */
+    background-image: url("./../img/C1.jpg");
 }
 
 .top-container-overlay {
