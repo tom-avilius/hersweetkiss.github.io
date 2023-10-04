@@ -3,6 +3,8 @@
 
     background-color: whitesmoke;
     height: 20vh;
+
+    border-radius: 10px;
 }
 
 .content p {
@@ -14,11 +16,13 @@
 
 .showcase {
 
+    position: relative;
+
     background-image: url("./../img/S1.jpg");
     height: 90vh;
     overflow: hidden;
     width: -webkit-fill-available;
-    z-index: +1;
+    z-index: -1;
     background-attachment: fixed;
     background-size: cover;
 }
