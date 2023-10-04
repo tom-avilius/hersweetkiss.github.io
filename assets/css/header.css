@@ -34,19 +34,19 @@ header {
     background-image: url("./../img/C1.jpg");
 }
 
-.top-container-overlay {
+.top-container-overlay{
 
     text-align: center;
     background-color: whitesmoke;
     position: absolute;
-    top: 77vh;
+    top: 80vh;
     height: 20vh;
     width: 45vw;
 
     border-radius: 10px;
 }
 
-.top-container-overlay h1 {
+.top-container-overlay h1, .content h1 {
 
     font-family: 'Mooli', Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -56,10 +56,10 @@ header {
     color: #2c2b2bdd;
 }
 
-.top-container-overlay h3 {
+.top-container-overlay h3, .content h3 {
 
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
     background-color: whitesmoke;
 }
