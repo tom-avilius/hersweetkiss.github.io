@@ -1,0 +1,24 @@
+
+.content {
+
+    background-color: whitesmoke;
+    height: 20vh;
+}
+
+.content p {
+
+    padding: 5%;
+    font-family: 'Handlee', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
+.showcase {
+
+    background-image: url("./../img/S1.jpg");
+    height: 90vh;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    z-index: +1;
+    background-attachment: fixed;
+    background-size: cover;
+}

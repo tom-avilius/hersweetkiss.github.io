@@ -27,8 +27,10 @@ header {
     overflow: hidden;
     width: -webkit-fill-available;
 
-    /* z-index: -1; */
-    /* position: sticky; */
+    z-index: -1;
+    /* position: fixed; */
+    background-attachment: fixed;
+    background-size: cover;
     background-image: url("./../img/C1.jpg");
 }
 
