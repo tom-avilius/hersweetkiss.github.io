@@ -143,3 +143,18 @@
 
     transition: all 0.4s ease-in;
 }
+
+.showcase-6 {
+
+    position: relative;
+
+    background-image: url("./../img/S6.jpg");
+    height: 100vh;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    z-index: -1;
+    background-attachment: fixed;
+    background-size: cover;
+
+    transition: all 0.4s ease-in;
+}
