@@ -43,6 +43,25 @@
     font-size: 1.5rem;
 }
 
+.content-3 {
+
+    text-align: center;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 350vh;
+    height: 20vh;
+    width: 45vw;
+
+    border-radius: 10px;
+}
+
+.content-3 p {
+
+    padding: 5%;
+    font-family: 'Handlee', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+
 .download-btn {
 
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -102,6 +121,19 @@
     position: relative;
 
     background-image: url("./../img/S3.jpg");
+    height: 90vh;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    z-index: -1;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.showcase-4 {
+
+    position: relative;
+
+    background-image: url("./../img/S4.jpg");
     height: 90vh;
     overflow: hidden;
     width: -webkit-fill-available;
