@@ -64,7 +64,7 @@ header {
     background-color: whitesmoke;
 }
 
-.top-container-overlay h3 a {
+.top-container-overlay h3 a, .primary-link {
 
     text-decoration: none;
     border-bottom: 1px solid #636363;
@@ -72,7 +72,7 @@ header {
     transition: all 0.5s ease;
 }
 
-.top-container-overlay h3 a:hover {
+.top-container-overlay h3 a:hover, .primary-link:hover {
 
     border-bottom: 1px solid transparent;
 }
