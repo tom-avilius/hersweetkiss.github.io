@@ -15,6 +15,11 @@ a:visited {
     color: black;
 }
 
+button {
+
+    user-select: none;
+}
+
 header {
 
     display: flex;
