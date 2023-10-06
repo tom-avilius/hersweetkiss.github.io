@@ -90,6 +90,15 @@
     transform: translateY(8px);
 }
 
+.overlay-2 {
+
+    backdrop-filter: blur(4px);
+    /* position: absolute; */
+    /* top: 450vh; */
+    width: -webkit-fill-available;
+    height: 100vh;
+}
+
 .showcase-1 {
 
     position: relative;
@@ -145,6 +154,21 @@
 }
 
 .showcase-6 {
+
+    position: relative;
+
+    background-image: url("./../img/S6.jpg");
+    height: 100vh;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    z-index: -1;
+    background-attachment: fixed;
+    background-size: cover;
+
+    transition: all 0.4s ease-in;
+}
+
+.showcase-7 {
 
     position: relative;
 

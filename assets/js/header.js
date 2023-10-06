@@ -20,3 +20,5 @@ function changeBackgroundShowcase4() {
 }
 
 changeBackgroundShowcase4();
+
+console.log('ss')
