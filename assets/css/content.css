@@ -62,6 +62,12 @@
     font-size: 1.5rem;
 }
 
+.devart-icon img {
+
+    width: 16px;
+    height: 16px;
+}
+
 .download-btn {
 
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -113,6 +119,29 @@
 
     border-radius: 20px;
     width: 55vw;
+}
+
+.footer-3 {
+
+    position: absolute;
+    top: 93vh;
+    height: 7vh;
+    width: -webkit-fill-available;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    justify-content: center !important;
+}
+
+.footer-3 div {
+
+    height: min-content;
+    width: min-content;
+}
+
+.footer-3 div div {
+
+    color: white;
+    height: fit-content;
 }
 
 .footer-1 ul, .footer-2 ul {
@@ -242,6 +271,26 @@
     background-size: cover;
 
     transition: all 0.4s ease-in;
+}
+
+.social {
+
+    margin-top: 10px;
+}
+
+.social div {
+
+    padding-right: 5px;
+}
+
+.social div a {
+
+    color: white !important;
+}
+
+.social div a:visited {
+
+    color: white !important;
 }
 
 @media screen and (max-width: 1100px) {
