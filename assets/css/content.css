@@ -130,14 +130,14 @@
     width: 55vw;
 }
 
-.footer-1 ul li a, .footer-3 ul li a {
+.footer-1 ul li a, .footer- ul li a {
 
     transition: all 0.2s ease-in;
 }
 
-.footer-1 ul li a:hover, .footer-3 ul li a:hover {
+.footer-1 ul li a:hover, .footer-2 ul li a:hover {
 
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 .footer-3 {
