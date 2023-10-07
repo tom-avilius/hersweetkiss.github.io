@@ -34,6 +34,23 @@ h3 {
   background: #F4E8DA;
 }
 
+.credit-link {
+  color: #F4E8DA;
+  margin-bottom: 15px;
+  text-decoration: none;
+  border-bottom: 1px #F4E8DA solid;
+  
+  transition: all 0.2s ease-in;
+}
+
+.credit-link:visited {
+  color: #F4E8DA;
+}
+
+.credit-link:hover {
+  border-bottom: 1px transparent solid;
+}
+
 .circle {
   width: 10px;
   height: 10px;
@@ -80,6 +97,16 @@ h3 {
   left: 13%;
 }
 
+.info div p {
+   margin-left: 15px;
+}
+
+.info div ul li {
+
+    list-style-type: none;
+    color: inherit;
+}
+
 h1 {
   color: #F4E8DA;
   font-size: 1em;
@@ -104,11 +131,11 @@ p {
 }
 
 .second {
-  top: 21%;
+  top: 27%;
 }
 
 .third {
-  top: 36%;
+  top: 40%;
 }
 
 .fourth {
@@ -121,30 +148,4 @@ p {
 
 .sixth {
   top: 83%;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  text-align: center;
-  font-size: 1em;
-  text-transform: uppercase;
-  padding: 10px;
-  color: #EA7996;
-}
-footer p {
-  text-transform: uppercase;
-  color: #DAB7A3;
-  font-family: "Lato", sans-serif;
-  letter-spacing: 3px;
-}
-footer a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-decoration: none;
-}
-footer a:hover {
-  color: #859FB5;
 }
