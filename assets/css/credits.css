@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Lora");
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  background: black;
+  display: grid;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 500px;
+  height: 700px;
+}
+
+.bar {
+  position: absolute;
+  height: 85%;
+  width: 2px;
+  left: 7%;
+  top: 7.5%;
+  background: #F4E8DA;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  left: -5px;
+  border: 1px solid #F4E8DA;
+  box-shadow: 0px 0px 7px #f4e8da;
+}
+
+.top {
+  background: #5B4644;
+  top: -1%;
+}
+
+.middle {
+  background: #87624F;
+  top: 38%;
+}
+
+.bottom {
+  background: #DAB7A3;
+  bottom: -1%;
+}
+
+.bold {
+  color: #87624F;
+  position: absolute;
+  top: -7%;
+  left: -17px;
+}
+
+.creamy {
+  color: #DAB7A3;
+  position: absolute;
+  bottom: -7%;
+  left: -27px;
+}
+
+.info {
+  width: 55%;
+  height: 100%;
+  position: absolute;
+  left: 13%;
+}
+
+h1 {
+  color: #F4E8DA;
+  font-size: 1em;
+  letter-spacing: 3px;
+}
+
+p {
+  color: #F4E8DA;
+  font-family: "Lora", serif;
+  text-transform: none;
+  font-size: 0.7em;
+  letter-spacing: 0.5px;
+  margin-top: -5px;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth {
+  position: absolute;
+}
+
+.first {
+  top: 7%;
+}
+
+.second {
+  top: 21%;
+}
+
+.third {
+  top: 36%;
+}
+
+.fourth {
+  top: 52%;
+}
+
+.fifth {
+  top: 65%;
+}
+
+.sixth {
+  top: 83%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #EA7996;
+}
+footer p {
+  text-transform: uppercase;
+  color: #DAB7A3;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+}
+footer a {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #859FB5;
+}
